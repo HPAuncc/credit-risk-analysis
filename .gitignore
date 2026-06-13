@@ -12,5 +12,9 @@ __pycache__/
 .venv/
 venv/
 
+# Tableau lock / recovery temp files (the .twbx workbook itself IS committed)
+*.twbr
+.~*
+
 # OS
 .DS_Store
